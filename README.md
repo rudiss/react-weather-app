@@ -1,9 +1,10 @@
 ## Tecnologias utilizadas
 
-- React - [Uma biblioteca JavaScript para criar interfaces de usuário](https://pt-br.reactjs.org/)
-- Styled Components - [Visual primitives for the component age](https://styled-components.com/)
+- React - [Uma biblioteca JavaScript para criar interfaces de usuário.](https://pt-br.reactjs.org/)
+- Styled Components - [Visual primitives for the component age.](https://styled-components.com/)
 - TypeScript - [Typed JavaScript at Any Scale.](https://www.typescriptlang.org/)
 - Atomic Design - [Redesenhando os entregáveis de designers e desenvolvedores.](https://brasil.uxdesign.cc/atomic-design-redesenhando-os-entreg%C3%A1veis-de-designers-e-desenvolvedores-da8886c7258d)
+- Design Responsivo - Abrir em tablet ou mobile.
 
 ## Rodando o Projeto
 
@@ -31,4 +32,4 @@ yarn build && yarn start
 
 Você pode testar a aplicação no site abaixo:
 
-- [React Weather](https://warren-suitability.vercel.app/).
+- [React Weather](https://support-5598d.web.app/) - Hospedado com firebase host.

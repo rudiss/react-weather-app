@@ -1,10 +1,16 @@
 import styled from 'styled-components';
+import device from '../../../util/responsive';
 
 export const Container = styled.div`
   position: absolute;
-  top: -8px;
+  top: -18px;
   right: 150px;
   z-index: 1;
+
+
+  @media ${device.tablet} {
+    top: -8px;
+  }
 
   .lds-ellipsis {
     display: inline-block;
