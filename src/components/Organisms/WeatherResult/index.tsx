@@ -153,7 +153,7 @@ const WeatherResult: React.FC<WeatherResultProps> = ({
         </WeatherDetail>
         <WeatherDetail>
           <SmallLabel align="center" weight="400">
-            {sunset}00
+            {sunset}
           </SmallLabel>
           <Text align="center">Por do Sol</Text>
         </WeatherDetail>

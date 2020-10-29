@@ -51,7 +51,6 @@ const App: React.FC = () => {
 
   const handleSearchCity = useCallback(() => {
     if (!searchCity) return;
-    setAddress('');
 
     setIsLoading(true);
     Promise.all([fetch(weatherAPI(searchCity?.value)), fetch(forecastAPI(searchCity?.value))])
@@ -90,6 +89,8 @@ const App: React.FC = () => {
           error: false,
         });
         setIsLoading(false);
+        if(city !== weatherPayload.city) setAddress('');
+
       })
       .catch((err) => {
         console.log(err);

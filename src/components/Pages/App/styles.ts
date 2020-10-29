@@ -9,7 +9,6 @@ export const WeatherContainer = styled.div`
   position: relative;
 `;
 
-
 export const AppTitle = styled.h1<{
   showLabel?: unknown | boolean;
   secondary?: unknown | boolean;
