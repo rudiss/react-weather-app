@@ -101,6 +101,7 @@ const App: React.FC = () => {
         });
         setIsLoading(false);
       });
+      //eslint-disable-next-line
   }, [searchCity]);
 
   const handleUserPosition = useCallback(() => {
