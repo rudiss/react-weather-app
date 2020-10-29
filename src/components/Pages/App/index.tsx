@@ -41,8 +41,6 @@ const App: React.FC = () => {
   const searchRef = useRef();
   const searchCity = (searchRef.current as unknown) as HTMLInputElement;
 
-  console.log(searchCity?.value);
-
   const handleInputChange = (e: any) => {
     e.preventDefault();
     setCity(e.target.value);

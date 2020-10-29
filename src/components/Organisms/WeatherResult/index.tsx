@@ -67,7 +67,6 @@ const WeatherResult: React.FC<WeatherResultProps> = ({
   },
   address,
 }) => {
-  console.log(forecast);
   const forecasts = forecast.map(
     (item: {
       dt: number;
