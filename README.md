@@ -7,7 +7,7 @@
 - Mobile First.
 - Design Responsivo - Abrir em tablet ou mobile.
 
-Foi utilizado React para desenvolver uma aplicação SPA, algumas vantagens do react são ter uma syntax declativa, fácil controle de state e props e de ser baseado em componentes, o que facilida o desenvolvimento usando a metetodoliogia do atomic design junto com styled-components. 
+Foi utilizado React para desenvolver uma aplicação SPA, algumas vantagens do react são ter uma syntax declativa, fácil controle de state e props e ser baseado em componentes, o que facilida o desenvolvimento usando a metodologia do atomic design junto com styled-components. 
 
 TypeScript fot utilizado para tipagem de props, funções e variaveis, com IntelliSense do TypeScript e a IDE possibilita o desenvolvedor descobrir erros durante o processo de desenvolvimento evitando bugs e ganhando produtividade no overall.
 
